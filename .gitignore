@@ -1,0 +1,71 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.installed.cfg
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- ML / training artifacts ---
+runs/
+logs/
+checkpoints/
+ckpt/
+wandb/
+mlruns/
+outputs/
+tb_logs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.safetensors
+*.onnx
+
+# --- Data / large files ---
+data/
+datasets/
+*.npz
+*.npy
+*.pkl
+*.parquet
+
+# --- Papers / scratch ---
+*.pdf
+scratch/
+tmp/
+
+# --- Type/test caches ---
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
